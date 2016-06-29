@@ -1,0 +1,56 @@
+body {
+  background-image: url("../body_back3.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main_div {
+  text-align: center;
+}
+
+#buttons {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button {
+  height: 40px;
+  width: 75px;
+  color: white;
+  background: black;
+  border: 2px solid;
+  border-radius: 25px; 
+}
+
+#form {
+  background: white;
+  width: 400px;
+  height: 230px;
+  margin: 0 auto;
+  position: relative;
+  /*top: 25px;*/
+  border: 3px solid;
+  border-radius: 25px; 
+}
+
+.out {
+  color: white;
+  font-style: italic;
+}
+
+#add_song {
+  height: 30px;
+}
+#inputs {
+  margin-top: -28px;
+}
+* {
+  font-family: sans-serif;
+}
+#main_title {
+  color: white;
+  font-size: 3em;
+}
+

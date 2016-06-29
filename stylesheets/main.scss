@@ -1,0 +1,52 @@
+body {
+	background-image: url('../body_back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 105px;
+}
+#buttons {
+	width: 250px;
+	margin: 0 auto;
+	margin-top: 50vh;
+	padding-left: 110px;
+ }
+
+ button {
+ 	height: 40px; 
+ 	width: 75px;
+ 	color: white;
+ 	background: black;
+ 	border: 3px solid;
+  border-radius: 25px; 
+ }
+
+ #form {
+ 	background: white;
+ 	margin-top: 250vh;
+ 	width: 200px;
+ 	height: 320px;
+ 	margin: 0 auto;
+ 	padding-left: 30px;
+ 	padding-top: 5px;
+ 	padding-bottom: 10px;
+ 	margin-bottom: -100px;
+ 	position: relative;
+ 	top: 280px;
+ 	left: 45px;
+ 	border: 3px solid;
+  border-radius: 25px; 
+  }
+
+  .out {
+  	text-align: center;
+  	padding-right: 10px;
+  	// padding-top: 3px;
+  }
+  #u-out {
+  	margin-left: -250px;
+  	width: 400px;
+  	padding-bottom: 5px;
+  }
+  #add_song {
+  	margin-top: 2px;
+  }

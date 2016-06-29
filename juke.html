@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>Juke Box</title>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  	<script src="js/script.js"></script>
+  	<link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+<body>
+<audio id="id1"></audio>
+
+<div id="main_div"><br>
+<h1 id="main_title"> Jukebox </h1>
+    <div id="form">
+        <h1>Add Song To Playlist</h1>
+        <div id="inputs"><br>
+          <input class="input" type="text" placeholder="title"><br>
+          <br>
+          <input class="input" type="text" placeholder="artist"><br>
+          <br>
+          <input class="input" type="text" placeholder="url"><br><br>
+          <button id="add_song" type="submit">Submit</button>
+        </div>
+    </div>
+
+    <div id="buttons"><br>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="stop">Stop</button>
+    </div>
+          <br>
+    <div>
+      <button id="back"><</button>
+      <button id="next">></button>
+      <br><br>  
+      <h4 class="out" id="t-out">title</h4>
+      <h4 class="out" id="a-out">artist</h4>
+      <h5 class="out" id="u-out">url</h5>
+    </div>
+</div>
+
+</body>
+</html>
+
