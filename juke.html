@@ -2,27 +2,30 @@
 <html>
   <head>
   	<title>Juke Box</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
   	<script src="js/script.js"></script>
-  	<link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
 <body>
+<!-- "id1" is the target for all audio actions Javascript audio methods -->
 <audio id="id1"></audio>
 
+<!-- "main_div" is the container for all display elements -->
 <div id="main_div"><br>
 <h1 id="main_title"> Jukebox </h1>
+<!-- "form" is the data entry form for adding a song to the playlist -->
     <div id="form">
-        <h1>Add Song To Playlist</h1>
-        <div id="inputs"><br>
-          <input id="title" class="input" type="text" placeholder="title"><br>
-          <br>
-          <input id="artist" class="input" type="text" placeholder="artist"><br>
-          <br>
-          <input id="url" class="input" type="text" placeholder="url"><br><br>
-          <button id="add_song" type="submit">Submit</button>
-        </div>
+      <h1>Add Song To Playlist</h1>
+      <div id="inputs"><br>
+        <input id="title" class="input" type="text" placeholder="title"><br>
+        <br>
+        <input id="artist" class="input" type="text" placeholder="artist"><br>
+        <br>
+        <input id="url" class="input" type="text" placeholder="url"><br><br>
+        <button id="add_song" type="submit">Submit</button>
+      </div>
     </div>
-
+<!-- audio control buttons -->
     <div id="buttons"><br>
       <button id="play">Play</button>
       <button id="pause">Pause</button>
@@ -30,9 +33,11 @@
     </div>
           <br>
     <div>
+<!-- play previous or next song in playlist -->
       <button id="back"><</button>
       <button id="next">></button>
       <br><br>  
+<!--  display fields for current song playing -->
       <h4 class="out" id="t-out">title</h4>
       <h4 class="out" id="a-out">artist</h4>
       <h5 class="out" id="u-out">url</h5>
