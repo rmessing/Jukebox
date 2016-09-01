@@ -10,7 +10,7 @@ function Jukebox() {
 	this.add = function(newSong){
 		this.playlist.push(newSong)
 	}
-// play mp3 and display title, artist, url from the playlist array at index
+// play mp3 and display title, artist, url from the playlist array
 	this.play_it = function(){
 		target.setAttribute('src', this.playlist[index].url)
 		target.play();
@@ -26,16 +26,14 @@ function Jukebox() {
 	this.stop_it = function(){
 		target.load();
 	}
-// grab title, artist and url data entry an add to playlist array
+// grab title, artist and url data entry and add to playlist array
 	this.upload = function() {
 		newSong = new Music(document.getElementById('title').value, document.getElementById('artist').value ,document.getElementById('url').value);
-		// console.log(jimi.playlist);
 		this.add(newSong);
 	}
 // play previous song
 	this.back = function(){
 		index--
-		// console.log(index + "back")
 		if (index < 0) {
 			 index = this.playlist.length - 1
 		}	
@@ -45,7 +43,6 @@ function Jukebox() {
 	this.next = function(){
 		index++
 		if (index == this.playlist.length) {
-		// console.log("is if triggered")
 			index = 0
 		}
 		jimi.play_it()
